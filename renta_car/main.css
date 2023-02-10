@@ -1,0 +1,315 @@
+body{
+  font-family: Georgia, serif;
+}
+
+.container-fluid{
+  overflow: hidden;
+  }
+.navBar{
+  color: white;
+  background-color: black;
+}
+.navBar img{
+  width: 70px;
+  height: 70px;
+}
+.navBar a{
+  color: white;
+}
+
+.navBar1 a{
+  color: white;
+}
+
+.color{
+  animation: fadeIn ease 3s;
+  background-image: url('images/pocenta.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0.5;}
+  100% {opacity:1;}
+}
+
+.h3_pocenta{
+  color:#EF233C;
+  margin-top: 15%;
+}
+
+/* registracija */
+
+.body{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3));
+ 
+}
+/* .hero{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(/img/image2.png); 
+   background-position: center;
+  background-size: cover;
+  position: absolute;
+ 
+}  */
+
+.form-box{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background:rgb(226, 226, 226) ;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 3px;
+}
+
+/* ---------------------------BUTTONS------------------------------------- */
+
+
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  border-radius: 50px;
+  transition: .5s;
+}
+
+
+/* ---------------------------SOCIAL ICONS------------------------------------- */
+
+
+.social-icons{
+  margin: 30px auto;
+  text-align: center;
+
+}
+
+.social-icons img{
+  width: 35px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* ---------------------------FORM------------------------------------- */
+
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.check-box{
+  margin: 30px 3px 30px 0;
+}
+
+label{
+  color: #777;
+  font-size: 12px;
+  bottom: 68px; 
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  border: 0;
+  outline: none;
+  border-radius: 30px; 
+}
+
+
+/* -----------------------------------ASIDE LOGIN & REGISTER ----------------------------------------- */
+
+#login {
+left: 50px;
+}
+
+#register {
+  left: 450px;
+} 
+
+.card {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  border-radius: 30px;
+  background: #000000;
+  /* margin-top: 4%; */
+  margin: 10%;
+
+}
+.card-body {
+  background: #000000;
+}
+.card-title{
+  color: white;
+}
+.card-text{
+  color: white;
+}
+.card-footer {
+  background: #171717;
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+}
+
+.card-header {
+  border-radius: 30px !important;
+  border: 0px;
+  background: #000000;
+}
+
+.card-header img {
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+
+}
+
+
+
+/* .navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
+} */
+
+
+.drustvenemreze{
+	width: 50px;
+	height: 50px;
+}
+.drustvenemrezef{
+	width: 63px;
+	height: 63px;
+	margin-right: 5%;
+}
+.futer{
+	background-color: black;
+	color: white;
+	font-size: 16px;
+}
+.u{
+	display: block;
+	text-align:left;
+	margin-left: 10%;
+
+}
+.sadrzaj{
+	line-height: 80%;
+}
+.odvojif{
+	margin-top: 10%;
+	font-size: 20px;
+}
+@media only screen and (max-width: 765px) {
+  .odvojif{
+	margin-top: 2%;
+}
+.u{
+	text-align: center;
+	margin-left: 0%;
+	}
+}
+  
+
+.futer a{
+	margin-left: 10px;
+}
+
+.logo1{
+	width: 70%;
+	height: 70%;
+	object-fit: cover;
+}
+
+.material-symbols-outlined {
+  font-size: 36px;
+  font-variation-settings: "FILL" 1, "wght" 300, "GRAD" -25, "opsz" 20;
+}
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.contact-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.contact-header {
+  text-align: center;
+}
+.left-side {
+  width: 30%;
+  float: left;
+}
+.contact-form {
+  width: 70%;
+  float: right;
+  padding-left:20px;
+}
+
+.contact-form > .contact-details >p {
+  margin: 0;
+}
+.contact-form > .contact-details >p > span{
+  font-size:36px;
+  position: relative;
+  top: 10px;
+  margin-right: 10px
+}
+.contact-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
